@@ -3,10 +3,20 @@
  # CTI1 P1HW2
  # Travel Budget and Expenses
 
+# Pseudocode
+# Ask user to enter thier budget
+# Ask user to enter travel destination
+# Ask user for the amount they will spend on gas
+# Ask user for the amount they will spend on accomodations
+# Ask user for the amount they will spend on food
+# Add expenses
+# Subtract expenses from the budget
+# Display results
+
 print('This program calculates and displays travel expenses\n\n')
 budget = int(input('Enter budget: '))
 print()
-destination = int(input('Enter your travel destination: '))
+destination = input('Enter your travel destination: ')
 print()
 gas = int(input('How much do you think you spend on gas: '))
 print()
@@ -23,5 +33,5 @@ print('Accomodations: ', accomodations)
 print('Food: ', food)
 print()
 expenses = gas + accomodations + food
-remaining_budget = int(input('Remaining Balance: '
-print('Remaining Balance: ' budget, - expenses
+remaining_budget = budget - expenses
+print('Remaining Balance: ', remaining_budget)
