@@ -1,0 +1,27 @@
+
+# Carey Faulkner
+# 27 Feb 2025
+# P1HW1
+# Calculating Exponents
+
+print()
+print('----- Calculating Exponents -----\n\n')
+
+base_value = int(input('Enter an integer as the base value: '))
+print()
+exponent = int(input('Enter an integer as the exponent: '))
+print()
+total_number = base_value ** exponent
+
+print(base_value, 'to the', exponent, 'power is', total_number,'\n\n')
+
+print('----- Addition and Subtraction -----\n\n')
+
+starting_integer = int(input('Enter a starting integer: '))
+print()
+added_integer = int(input('Enter an integer to add: '))
+print()
+subtracted_integer = int(input('Enter integer to subtract; '))
+print()
+sum = starting_integer + added_integer - subtracted_integer
+print(starting_integer, '+', added_integer, '-', subtracted_integer, 'is equal to', sum)
