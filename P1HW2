@@ -1,0 +1,27 @@
+ # Carey Faulkner
+ # 27 Feb 2025
+ # CTI1 P1HW2
+ # Travel Budget and Expenses
+
+print('This program calculates and displays travel expenses\n\n')
+budget = int(input('Enter budget: '))
+print()
+destination = int(input('Enter your travel destination: '))
+print()
+gas = int(input('How much do you think you spend on gas: '))
+print()
+accomodations = int(input('Approximately, how much will you need for accomodations/hotel: '))
+print()
+food = int(input('Last, how much will you need for food: '))
+print()
+print('----- Travel Expenses -----\n\n')
+print('Location: ', destination)
+print('Initial Budget: ', budget)
+print()
+print('Fuel: ', gas)
+print('Accomodations: ', accomodations)
+print('Food: ', food)
+print()
+expenses = gas + accomodations + food
+remaining_budget = int(input('Remaining Balance: '
+print('Remaining Balance: ' budget, - expenses
