@@ -13,7 +13,7 @@ exponent = int(input('Enter an integer as the exponent: '))
 print()
 total_number = base_value ** exponent
 
-print(base_value, 'to the', exponent, 'power is', total_number,'\n\n')
+print(base_value, 'to the power of', exponent, 'is', total_number,'\n\n')
 
 print('----- Addition and Subtraction -----\n\n')
 
