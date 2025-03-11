@@ -3,7 +3,6 @@
 # P2LAB2
 # Calculates the number of gallons needed to drive a vehicle based on MPG.
 
-# Create a dictionary with car models and their corresponding MPG values
 dict_keys = {
     "Camaro": 18.21,
     "Prius": 52.36,
