@@ -1,8 +1,9 @@
-import random
 # Carey Faulkner
 # 20 APR 2025
 # P5LAB
 # This program will simulate a customer using a self-checkout machine.
+
+import random
 
 # Function to break down and print change
 def disperse_change(change):
